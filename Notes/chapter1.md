@@ -9,4 +9,4 @@
 -  a way to store and organize data in order to facilitate access and modifications.
 
 
-NP-complete problems: `no one knows if NP-complete is an efficient or not efficient algorithms`
+NP-complete problems: `no one knows if NP-complete is an efficient or not efficient algorithms and if it efficient for one, it can be efficient for all . `
