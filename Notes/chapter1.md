@@ -3,4 +3,10 @@
 ## what is algorithm?
 - any well-defined computational procedure 
 - tool for solving a well-specified computational problem
-- takes some value, or set of values, as input and produces set of values, as output
+- a sequence of computational steps that transform the input into the output.
+
+## what is data structures?
+-  a way to store and organize data in order to facilitate access and modifications.
+
+
+NP-complete problems: `no one knows if NP-complete is an efficient or not efficient algorithms`
