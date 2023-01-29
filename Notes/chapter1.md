@@ -18,5 +18,5 @@ NP-complete problems: `no one knows if NP-complete is an efficient or not effici
 
  **running time of merge sort is much smaller than insertion sort**
 
- ![order of growth](/Screen_Shot%20.png)
+
  
