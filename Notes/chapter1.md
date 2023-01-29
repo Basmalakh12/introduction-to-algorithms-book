@@ -18,5 +18,5 @@ NP-complete problems: `no one knows if NP-complete is an efficient or not effici
 
  **running time of merge sort is much smaller than insertion sort**
 
-
- 
+ ## order of growth 
+ *i < log N < N < N log N < N^2 < N^3 < .... < 2^N < N! <N^N*
