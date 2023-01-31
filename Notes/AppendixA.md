@@ -1,2 +1,2 @@
 ## Appendix A 
-![sums](Notes/sums1.png)
+![sums](./sums1.png)
