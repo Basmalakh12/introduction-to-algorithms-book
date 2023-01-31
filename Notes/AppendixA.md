@@ -15,3 +15,8 @@
 
  ## Sums of squares and cubes
  ![Sums of squares and cubes](./Sums_of_squares_and_cubes.png)
+
+ ## Geometric series
+
+ x ≠ 1
+ 
