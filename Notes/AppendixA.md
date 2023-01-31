@@ -1,9 +1,9 @@
 # Appendix A 
-1. [main Summation formula](#main_summation_formula)
+1. [main Summation formula](#main-summation-formula)
 1. [Linearity](#linearity)
-1. [Arithmetic series](#arithmetic_series)
-1. [Sums of squares and cubes](#sums_of_squares_and_cubes)
-1. [Geometric series](#geometric_series)
+1. [Arithmetic series](#arithmetic-series)
+1. [Sums of squares and cubes](#sums-of-squares-and-cubes)
+1. [Geometric series](#geometric-series)
 
 ## main Summation formula
 ![sums](./sums1.png)
