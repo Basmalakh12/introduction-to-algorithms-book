@@ -18,8 +18,10 @@
 
 ## Geometric series
 x ≠ 1
+
 ![Geometric series 1](./Geometric1.png)
 
 
 summation is infinite and |x| < 1,
+
 ![Geometric series 2](./Geometric2.png)
