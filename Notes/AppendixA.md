@@ -6,7 +6,7 @@
 ## Linearity
 ![Linearity 1](./Linearity1.png)
 
-**Likewise**
+Likewise
 
 ![Linearity 2](./Linearity2.png)
 
