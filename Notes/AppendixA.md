@@ -5,7 +5,9 @@
 
 ## Linearity
 ![Linearity 1](./Linearity1.png)
+
 **Likewise**
+
 ![Linearity 2](./Linearity2.png)
 
 ## Arithmetic series
