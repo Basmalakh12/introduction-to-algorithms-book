@@ -1,5 +1,10 @@
 # chapter 2
 
+1. [difference between pseudocode and real code](#difference-between-pseudocod-and-real-code)
+1. [ Insertion sort](#insertion-sort)
+1. [ things about a loop invariant](#things-abou-a-loop-invariant)
+
+
 ### **difference between pseudocode and real code**
 - pseudocode use expressive method that is clear and concise to given a specific  algorithm.
 - pseudocode is not concerned with issues of software engineering " For example Issues of data abstraction, modularity and error handling "
