@@ -34,7 +34,7 @@
 
          A[ i+ 1 ] = key
 
----
+
 
 ***pseudocode explanation***
 
