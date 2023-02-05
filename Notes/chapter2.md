@@ -2,7 +2,7 @@
 
 1. [difference between pseudocode and real code](#difference-between-pseudocod-and-real-code)
 1. [ Insertion sort](#insertion-sort)
-1. [ things about a loop invariant](#things-abou-a-loop-invariant)
+1. [ things about a loop invariant](#things-about-a-loop-invariant)
 
 
 ### **difference between pseudocode and real code**
