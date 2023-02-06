@@ -5,6 +5,7 @@
 1. [ things about a loop invariant](#things-about-a-loop-invariant)
 1. [ Analyzing algorithms](#analyzing-algorithms)
 1. [ RAM model](#ram-model)
+1. [ Analysis of insertion sort](#analysis-of-insertion-sort)
 
 ---
 
@@ -91,6 +92,7 @@ the invariant gives us a useful property that helps show that the algorithm is c
  ## Analyzing algorithms
  - Choose the most efficient of several possible algorithms for the same problem.
  - Running time of an algorithm : `The number of steps executed by the algorithm`
+ - input size : `number of items in the input`
  ---
  ## RAM model
  - Generic single-processor model.
@@ -99,6 +101,10 @@ the invariant gives us a useful property that helps show that the algorithm is c
  - no concurrent operations.
  - Memory is unlimited.
  - no hierarchy.
+ 
+ ---
+ ## Analysis of insertion sort
+
 
 
  
