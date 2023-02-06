@@ -103,7 +103,8 @@ the invariant gives us a useful property that helps show that the algorithm is c
  - no hierarchy.
  
  ---
- ## Analysis of insertion sort
+ 
+
 
 
 
