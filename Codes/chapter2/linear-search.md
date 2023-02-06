@@ -1,9 +1,12 @@
 ## linear search 
+```
+ procedure linear_search (list, value)
 
- LinearSearch(A, key)
-     for i = 1
-         while i ≤ n and A[ i ] ≠ key
-             do i++
-         if i ≤ n
-             then return true
-             else return false
+   for each item in the list
+      if  item == value
+         return the item's location
+      end if
+   end for
+
+ end procedure
+ ```
