@@ -3,12 +3,16 @@
 1. [difference between pseudocode and real code](#difference-between-pseudocod-and-real-code)
 1. [ Insertion sort](#insertion-sort)
 1. [ things about a loop invariant](#things-about-a-loop-invariant)
+1. [ Analyzing algorithms](#analyzing-algorithms)
+1. [ RAM model](#ram-model)
 
+---
 
 ### **difference between pseudocode and real code**
 - pseudocode use expressive method that is clear and concise to given a specific  algorithm.
 - pseudocode is not concerned with issues of software engineering " For example Issues of data abstraction, modularity and error handling "
 
+---
 
 ## Insertion sort
 - sort small number of elements
@@ -83,5 +87,19 @@ the invariant gives us a useful property that helps show that the algorithm is c
 
  >**Termination**  
  j > A.length = n , each loop iteration increases j by 1 , so that j= n + 1 at that time then the subarray A [ 1 ... n]
+ ---
+ ## Analyzing algorithms
+ - Choose the most efficient of several possible algorithms for the same problem.
+ - Running time of an algorithm : `The number of steps executed by the algorithm`
+ ---
+ ## RAM model
+ - Generic single-processor model.
+ - Supports simple constant-time instructions "Arithmetic , Data Movement , Control" 
+ - Run time (cost) is uniform (1 time unit) for all simple instructions.
+ - no concurrent operations.
+ - Memory is unlimited.
+ - no hierarchy.
+
+
  
 
