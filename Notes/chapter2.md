@@ -5,6 +5,7 @@
 1. [ things about a loop invariant](#things-about-a-loop-invariant)
 1. [ Analyzing algorithms](#analyzing-algorithms)
 1. [ RAM model](#ram-model)
+1. [ Order of growth](#orde-of-growth)
 
 ---
 
