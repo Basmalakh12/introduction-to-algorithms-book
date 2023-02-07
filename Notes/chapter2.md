@@ -102,6 +102,20 @@ the invariant gives us a useful property that helps show that the algorithm is c
  - no hierarchy.
  
  ---
+ ### Worst-case Complexity
+ - Maximum steps the algorithm takes for any possible input.
+
+ ### Average-case Complexity
+ - Average of the running times of all possible inputs.
+
+ ### Best-case Complexity
+ - Minimum number of steps for any possible input
+
+ ## Order of growth
+ - how running time grows with input size
+ - Complexity function can be used to compare the performance of algorithms.
+ - – Asymptotic complexity: `the running time for large inputs`
+
  
 
 
