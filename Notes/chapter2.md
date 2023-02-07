@@ -114,7 +114,7 @@ the invariant gives us a useful property that helps show that the algorithm is c
  ## Order of growth
  - how running time grows with input size
  - Complexity function can be used to compare the performance of algorithms.
- - – Asymptotic complexity: `the running time for large inputs`
+ - Asymptotic complexity: `the running time for large inputs`
 
  
 
