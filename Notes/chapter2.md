@@ -6,6 +6,7 @@
  1. [ Analyzing algorithms](#analyzing-algorithms)
  1. [ RAM model](#ram-model)
  1. [ Order of growth](#orde-of-growth)
+ 1. [ Designing algorithms](#designing-algorithms)
 
  ---
 
@@ -116,16 +117,17 @@
  - how running time grows with input size
  - Complexity function can be used to compare the performance of algorithms.
  - Asymptotic complexity: `the running time for large inputs`
- -  1 < log N < N < N log N < Nˆ2 < Nˆ3 < .... < 2ˆN < N! < NˆN 
-
+ 
  ---
  ## Designing algorithms
+
  ### 1. The divide-and-conquer approach
  - devide problem into smallar instances of the same problems,Conquer the sub-problems by solving them recursively and Combine the solutions to the sub-problems into solution for the
  original problem
- 
- ### MERGE procedure
- MERGE-SORT(A,p,r)
+ - merge sort algorithm depends on divide-and-conquer
+ ### 1.1 merge sort algorithm
+
+  MERGE-SORT(A,p,r)
 
     if p < r
 
@@ -147,6 +149,25 @@
  - Conquer: ` 2T(n/2) `
  - Combine: ` Θ(n) `
  - ` T(n)= Θ(n log n) `
+ ### 1.2. recursion tree
+ - The number of nodes at depth d in a perfect binary tree = 2ˆd
+ - A perfect binary tree of height h has:2ˆh+1 • −1 nodes
+ - Number of leaf nodes in a perfect binary tree of height h = 2ˆh
+ - Number of internal nodes in a perfect binary tree of height h = 2ˆh − 1
+ - h = log n
+
+ *Tree Termonology*
+ - A = Root:` No parent for this node`
+ - Siblings:` the nodes that have the same parent`
+ - leaf (External node):` havs no child `
+ - Internal node:` a node with at least one child`
+ - Ancestors of a node:` parent,grandparent, grand-grandparent`
+ - Descendant of a node:` child,grandchild, grand-grandchild`
+ - Depth of a node:` number of ancestors`
+ - Height of a tree:` maximum depth of any node in the tree`
+ - Degree of a tree:` the maximum number of this node`
+ - Degree of a node:` number of this node children`
+ 
 
 
 
