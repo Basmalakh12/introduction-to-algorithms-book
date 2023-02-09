@@ -1,26 +1,26 @@
-# chapter 2 " Insertion Sort "
+ # chapter 2 
 
-1. [difference between pseudocode and real code](#difference-between-pseudocod-and-real-code)
-1. [ Insertion sort](#insertion-sort)
-1. [ things about a loop invariant](#things-about-a-loop-invariant)
-1. [ Analyzing algorithms](#analyzing-algorithms)
-1. [ RAM model](#ram-model)
-1. [ Order of growth](#orde-of-growth)
+ 1. [difference between pseudocode and real code](#difference-between-pseudocod-and-real-code)
+ 1. [ Insertion sort](#insertion-sort)
+ 1. [ things about a loop invariant](#things-about-a-loop-invariant)
+ 1. [ Analyzing algorithms](#analyzing-algorithms)
+ 1. [ RAM model](#ram-model)
+ 1. [ Order of growth](#orde-of-growth)
 
----
+ ---
 
-### **difference between pseudocode and real code**
-- pseudocode use expressive method that is clear and concise to given a specific  algorithm.
-- pseudocode is not concerned with issues of software engineering " For example Issues of data abstraction, modularity and error handling "
+ ### **difference between pseudocode and real code**
+ - pseudocode use expressive method that is clear and concise to given a specific  algorithm.
+ - pseudocode is not concerned with issues of software engineering " For example Issues of data abstraction, modularity and error handling "
 
----
+ ---
 
-## Insertion sort
-- sort small number of elements
-- We rearrange in insertion sort from right to left
+ ## Insertion sort
+ - sort small number of elements
+ - We rearrange in insertion sort from right to left
 
 
-**pseudocode of insertion sort**
+ **pseudocode of insertion sort**
 
 
  INSERTION-SORT(A)
@@ -41,7 +41,7 @@
 
 
 
-***pseudocode explanation***
+ ***pseudocode explanation***
 
  A (5, 2, 4, 6, 1, 3)
 
@@ -59,21 +59,21 @@
 
  i = i - 1 :  `i = 1 - 1 = 0`
 
-while 0 > 0 and A [ i ] > key :`The condition is not run`
+ while 0 > 0 and A [ i ] > key :`The condition is not run`
 
-A[ i+ 1 ] = key : `A [0+1] = key  >> A[1] = key  >> A[1] = 2  `
+ A[ i+ 1 ] = key : `A [0+1] = key  >> A[1] = key  >> A[1] = 2  `
 
----
+ ---
 
-### things about a loop invariant:
+ ### things about a loop invariant:
 
-what is a loop invariant? :`a tool used to prove the correctness of algorithm ,specificially in regards to a loop , it is a properties of type boolean and must be aligned with the goal of the algorithm , it is must hold be true at initialization ,Maintenance and Termination `
+ what is a loop invariant? :`a tool used to prove the correctness of algorithm ,specificially in regards to a loop , it is a properties of type boolean and must be aligned with the goal of the algorithm , it is must hold be true at initialization ,Maintenance and Termination `
 
-1. Initialization: ` It is true prior to the first iteration of the loop.`
-2. Maintenance: `If it is true before an iteration of the loop, it remains true before the next iteration.`
-3. Termination: `When the loop terminates. `
+ 1. Initialization: ` It is true prior to the first iteration of the loop.`
+ 2. Maintenance: `If it is true before an iteration of the loop, it remains true before the next iteration.`
+ 3. Termination: `When the loop terminates. `
 
-the invariant gives us a useful property that helps show that the algorithm is correct.
+ the invariant gives us a useful property that helps show that the algorithm is correct.
 
  ## Let us see how these properties hold for insertion sort.
 
@@ -111,12 +111,53 @@ the invariant gives us a useful property that helps show that the algorithm is c
 
  ### Best-case Complexity
  - Minimum number of steps for any possible input
-
+ ---
  ## Order of growth
  - how running time grows with input size
  - Complexity function can be used to compare the performance of algorithms.
  - Asymptotic complexity: `the running time for large inputs`
  -  1 < log N < N < N log N < Nˆ2 < Nˆ3 < .... < 2ˆN < N! < NˆN 
+
+ ---
+ ## Designing algorithms
+ ### 1. The divide-and-conquer approach
+ - devide problem into smallar instances of the same problems,Conquer the sub-problems by solving them recursively and Combine the solutions to the sub-problems into solution for the
+ original problem
+ 
+ ### MERGE procedure
+ MERGE-SORT(A,p,r)
+
+    if p < r
+
+         q = ( p + r ) / 2
+
+         MERGE-SORT(A, p, q)
+
+         MERGE-SORT(A, q + 1, r)
+
+         MERGE(A, p, q, r)
+
+ - Declare left and right var which will mark the extreme indices of the array
+ - Left will be assigned to 0 and right will be assigned to n-1
+ - Find mid = (left+right)/2
+ - Call mergeSort on (left,mid) and (mid+1,rear)
+ - Above will continue till left < right
+ - Then we will call merge on the 2 subproblems
+ - Divide: ` D(n)= Θ(1) `
+ - Conquer: ` 2T(n/2) `
+ - Combine: ` Θ(n) `
+ - ` T(n)= Θ(n log n) `
+
+
+
+
+
+
+
+
+ 
+
+
 
  
 
