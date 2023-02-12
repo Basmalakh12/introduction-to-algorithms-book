@@ -167,7 +167,23 @@
  - Height of a tree:` maximum depth of any node in the tree`
  - Degree of a tree:` the maximum number of this node`
  - Degree of a node:` number of this node children`
+ ---
+ ## Correctness of bubblesort
+ - Θ(nˆ2)
+ - not efficient
+
+ BUBBLESORT(A)
+
+     for i = 1 to A.length - 1
+
+       for j= A.length downto i + 1 
  
+         if A[ j ]  < A [j - 1]
+
+           exchange A[ j ]  with A[j - 1]
+
+ 
+
 
 
 
