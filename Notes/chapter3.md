@@ -18,5 +18,18 @@
 -  average bound
 - two positive constant , 0 ≤ C1 g(n) ≤ F(n) ≤ C2 g(n) , for all n ≥ n0
 
+## Standard notations and common functions
+- Monotonicity
+- Floors and ceilings
+- Modular arithmetic
+- Polynomials
+- Exponentials
+- Logarithms
+- Factorials
+- Functional iteration
+- The iterated logarithm function
+- Fibonacci numbers
+
+
 
 
