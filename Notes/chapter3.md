@@ -2,7 +2,7 @@
 ## Asymptotic notation
 - asymptotic notation use to describe the running times of algorithms
 
-![Asymptotic notation](./Asymptotic_notation)
+![Asymptotic notation](./Asymptotic_notation.png)
 
 
 ### O-notation  " Big oh " 
