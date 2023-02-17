@@ -1,5 +1,5 @@
  ## 2.2-1 
- ### Express the function n3=1000 􏰐 100n2 􏰐 100n C 3 in terms of ‚-notation.
+ ### Express the function nˆ3/1000 - 100nˆ2 - 100n + 3 in terms of ‚Θ-notation.
 
  = Θ(max(nˆ3/1000, −100nˆ2, −100n, 3)
 
@@ -50,5 +50,6 @@
  ## 2.2-4
  ### How can we modify almost any algorithm to have a good best-case running time?
  - design algorithms in best-case scenario as special case and return a predetermined solution.
+ 
 
 
