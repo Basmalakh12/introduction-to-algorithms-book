@@ -1,0 +1,2 @@
+ ## 2.3-2
+ ### Rewrite the MERGE procedure so that it does not use sentinels, instead stopping once either array L or R has had all its elements copied back to A and then copying the remainder of the other array back into A.
