@@ -18,3 +18,5 @@
 -  average bound
 - two positive constant , 0 ≤ C1 g(n) ≤ F(n) ≤ C2 g(n) , for all n ≥ n0
 
+
+
