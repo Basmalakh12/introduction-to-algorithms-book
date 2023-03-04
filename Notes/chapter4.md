@@ -12,7 +12,7 @@
      -  provides bounds for recurrences of the form T(n) = aT(n/b) + f(n)
 
  ---
- ![counterexample](./counterexample.png)
+
  ## A brute-force solution
  -  try every possible solution
  - for i = 1  ---> n
@@ -21,3 +21,4 @@
 
  ## The maximum-subarray problem
  -  do transformation then use Divide-and-Conquern technique
+ - T(n) = Θ(n log n)
