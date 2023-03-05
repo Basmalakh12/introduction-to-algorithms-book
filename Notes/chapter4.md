@@ -1,4 +1,5 @@
- # Divide-and-Conquer
+ # Chapter 4
+ ## Divide-and-Conquer
  - devide problem into smallar instances of the same problems,Conquer the sub-problems by solving them recursively and Combine the solutions to the sub-problems into solution for the
  original problem
  ## Recurrences
@@ -22,3 +23,41 @@
  ## The maximum-subarray problem
  -  do transformation then use Divide-and-Conquern technique
  - T(n) = Θ(n log n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ## The recursion-tree method for solving recurrences
+ - each node represents the cost of a single subproblem,We sum the costs within each level of the tree to obtain a set of per-level costs, and then we sum all the per-level costs to determine the total cost of all levels of the recursion.
+
+ - The number of nodes at depth d in a perfect binary tree = 2ˆd
+ - A perfect binary tree of height h has:2ˆh+1 • −1 nodes
+ - Number of leaf nodes in a perfect binary tree of height h = 2ˆh
+ - Number of internal nodes in a perfect binary tree of height h = 2ˆh − 1
+ - h = log n

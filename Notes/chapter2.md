@@ -122,8 +122,7 @@
  ## Designing algorithms
 
  ### 1. The divide-and-conquer approach
- - devide problem into smallar instances of the same problems,Conquer the sub-problems by solving them recursively and Combine the solutions to the sub-problems into solution for the
- original problem
+ - devide problem into smallar instances of the same problems,Conquer the sub-problems by solving them recursively and Combine the solutions to the sub-problems into solution for the original problem
  - merge sort algorithm depends on divide-and-conquer
  ### 1.1 merge sort algorithm
 

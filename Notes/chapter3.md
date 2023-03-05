@@ -1,4 +1,5 @@
-# Growth of Functions
+# Chapter 3
+## Growth of Functions
 ## Asymptotic notation
 - asymptotic notation use to describe the running times of algorithms
 
