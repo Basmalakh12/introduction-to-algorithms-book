@@ -55,9 +55,18 @@
 
  ## The recursion-tree method for solving recurrences
  - each node represents the cost of a single subproblem,We sum the costs within each level of the tree to obtain a set of per-level costs, and then we sum all the per-level costs to determine the total cost of all levels of the recursion.
-
  - The number of nodes at depth d in a perfect binary tree = 2ˆd
  - A perfect binary tree of height h has:2ˆh+1 • −1 nodes
  - Number of leaf nodes in a perfect binary tree of height h = 2ˆh
  - Number of internal nodes in a perfect binary tree of height h = 2ˆh − 1
  - h = log n
+
+
+ ## The master method for solving recurrences
+ - T(n) = aT(n/b) + f(n)
+     - case 1
+         -  if a > bˆk then T(n) = Θ(nˆlog ab)
+     - case 2
+         - if a = bˆk and
+             - if p < -1 then T(n) = Θ(nˆlog ab)
+             - if p = -1 then T(n) = Θ(nˆlog ab log n)
