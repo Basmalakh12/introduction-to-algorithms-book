@@ -23,36 +23,6 @@
  ## The maximum-subarray problem
  -  do transformation then use Divide-and-Conquern technique
  - T(n) = Θ(n log n)
-  ## Strassen’s algorithm for matrix multiplication
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  ## The recursion-tree method for solving recurrences
  - each node represents the cost of a single subproblem,We sum the costs within each level of the tree to obtain a set of per-level costs, and then we sum all the per-level costs to determine the total cost of all levels of the recursion.
