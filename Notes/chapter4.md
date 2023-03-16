@@ -48,4 +48,3 @@
               - if p < 0 then T(n) = Θ(nˆk)
              - if p > 0 then T(n) = Θ(nˆk log n)
 
- ## Floors and ceilings
