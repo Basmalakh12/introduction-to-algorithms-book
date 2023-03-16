@@ -23,6 +23,7 @@
  ## The maximum-subarray problem
  -  do transformation then use Divide-and-Conquern technique
  - T(n) = Θ(n log n)
+  ## Strassen’s algorithm for matrix multiplication
 
 
 
@@ -76,3 +77,5 @@
          - if a < bˆk and
               - if p < 0 then T(n) = Θ(nˆk)
              - if p > 0 then T(n) = Θ(nˆk log n)
+
+ ## Floors and ceilings

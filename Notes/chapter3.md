@@ -49,17 +49,28 @@
 ### Polynomials
 ![Polynomials](./Polynomials.png)
 
+### Exponentials
+- aˆ0 = 1
+- aˆ1 = a
+- aˆ-1 = 1/a
+- (aˆm)ˆn = aˆmn
+- (aˆm)ˆn = (aˆn)ˆm
+- aˆm aˆn = aˆn+m
 
+### Logarithms
+- lg n = log2 n  (binary logarithm)
+- ln n = loge n  (natural logarithm)
+- lgk n = (loge n )ˆk  (exponentiation)
+- lg lg n = lg(loge n )  (composition) 
+  
+### Factorials
+- n! = o(nˆn)
+- n! = o(2ˆn)
+- log(n!) = o(nlog n)
 
-
-
-
-- Exponentials
-- Logarithms
-- Factorials
-- Functional iteration
-- The iterated logarithm function
-- Fibonacci numbers
+### Functional iteration
+### The iterated logarithm function
+### Fibonacci numbers
 
 
 
