@@ -1,7 +1,7 @@
  ## 2.2-1 
  ### Express the function nˆ3/1000 - 100nˆ2 - 100n + 3 in terms of ‚Θ-notation.
 
- = Θ(max(nˆ3/1000, −100nˆ2, −100n, 3)
+ = Θ (max(nˆ3/1000, −100nˆ2, −100n, 3))
 
  = Θ(nˆ3)
 
