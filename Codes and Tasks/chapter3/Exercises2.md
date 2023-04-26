@@ -17,4 +17,14 @@
  - = (a ˆlogcb)ˆlogab
  - =  c ˆlogab
  ---
+ ## 3.2-3 Prove equation (3.19). Also prove that n! = ω(2ˆn) and nŠ! = o(nˆn)
+ - lg ([lg n]!) = O ([lg n] lg [lg n])
+     -  O (lg n lg lg n)
+     - O(lg n)
+
+ ---
+  ## 3.2-4 ? Is the function [log n]! polynomially bounded? Is the function [loglog n]!polynomi- ally bounded?
+  --- 
+  ## 3.2-5 ? Which is asymptotically larger: lg(lg * n)or lg * (lg n)/?
+
  
