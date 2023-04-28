@@ -19,6 +19,7 @@
 ![Combinations](./Combinations.png)
 ### Binomial coefficients
 - The binomial coefficients are the integers calculated using the formula
+
 ![ Binomial coefficients](./Binomial_coefficients.png)
 ### Binomial bounds
 ![ Binomial bounds](./Binomial_bounds.png)
