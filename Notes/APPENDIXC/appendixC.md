@@ -50,6 +50,16 @@
 ![Bayes’s theorem](./Bayes’s_theorem2.png)
 
 ## C.3 Discrete random variables
+- is a function from a finite or countably infinite sample space S to the real numbers
+### Expected value of a random variable
+- The expected value of a random variable is denoted by E[ X ].
+- The expected value can be thought of as the “average” value attained by the random variable
+### Variance and standard deviation
+- variance is a measure of dispersion that takes into account the spread of all data points in a data set.
+- It’s the measure of dispersion the most often used, along with the standard deviation, which is simply the square root of the variance. 
+- The variance is mean squared difference between each data point and the centre of the distribution measured by the mean.
+
+
 
 
 
